@@ -3,7 +3,6 @@ const autoprefixer = require('autoprefixer')
 const htmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  devtool: 'cheap-module-eval-source-map',
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
