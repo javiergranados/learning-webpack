@@ -2,5 +2,9 @@
   "name": "learning-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js"
+  "main": "index.js",
+  "devDependencies": {
+    "webpack": "^4.25.1",
+    "webpack-dev-server": "^3.1.10"
+  }
 }
